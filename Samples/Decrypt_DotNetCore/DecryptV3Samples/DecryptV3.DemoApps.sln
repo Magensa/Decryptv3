@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Console", "1.Console", "{63AA3180-EBF2-482F-B993-3C0221929A1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.UIFactory", "2.UIFactory", "{D158142A-6BCA-43DE-B85C-087DB31C5706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.ServiceFactory", "3.ServiceFactory", "{8B378050-080F-4FBE-A80A-271A14FDD16E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Dtos", "4.Dtos", "{4B4322EF-4723-45A4-A65B-451039DC0857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecryptV3.Dtos", "DecryptV3.Dtos\DecryptV3.Dtos.csproj", "{9770CDF4-EF30-4671-A05D-4458C173F6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecryptV3.ServiceFactory", "DecryptV3.ServiceFactory\DecryptV3.ServiceFactory.csproj", "{F290683D-7C40-49B3-B71D-D3EB5533054E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecryptV3.UIFactory", "DecryptV3.UIFactory\DecryptV3.UIFactory.csproj", "{13093CC7-E544-4C53-B227-9B7E821B110B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecryptV3.DemoApp", "DecryptV3.DemoApp\DecryptV3.DemoApp.csproj", "{E672FE0A-60DA-47F5-B176-F5BC69423A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9770CDF4-EF30-4671-A05D-4458C173F6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9770CDF4-EF30-4671-A05D-4458C173F6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9770CDF4-EF30-4671-A05D-4458C173F6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9770CDF4-EF30-4671-A05D-4458C173F6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F290683D-7C40-49B3-B71D-D3EB5533054E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F290683D-7C40-49B3-B71D-D3EB5533054E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F290683D-7C40-49B3-B71D-D3EB5533054E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F290683D-7C40-49B3-B71D-D3EB5533054E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13093CC7-E544-4C53-B227-9B7E821B110B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13093CC7-E544-4C53-B227-9B7E821B110B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13093CC7-E544-4C53-B227-9B7E821B110B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13093CC7-E544-4C53-B227-9B7E821B110B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E672FE0A-60DA-47F5-B176-F5BC69423A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E672FE0A-60DA-47F5-B176-F5BC69423A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E672FE0A-60DA-47F5-B176-F5BC69423A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E672FE0A-60DA-47F5-B176-F5BC69423A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9770CDF4-EF30-4671-A05D-4458C173F6E6} = {4B4322EF-4723-45A4-A65B-451039DC0857}
+		{F290683D-7C40-49B3-B71D-D3EB5533054E} = {8B378050-080F-4FBE-A80A-271A14FDD16E}
+		{13093CC7-E544-4C53-B227-9B7E821B110B} = {D158142A-6BCA-43DE-B85C-087DB31C5706}
+		{E672FE0A-60DA-47F5-B176-F5BC69423A73} = {63AA3180-EBF2-482F-B993-3C0221929A1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAE08C6E-5876-4913-B6D2-B68B109B64AD}
+	EndGlobalSection
+EndGlobal

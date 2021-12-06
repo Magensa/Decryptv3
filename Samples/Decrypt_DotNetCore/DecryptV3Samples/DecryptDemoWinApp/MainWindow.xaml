@@ -1,0 +1,18 @@
+﻿<Window x:Class="DecryptDemoWinApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DecryptDemoWinApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="251" Width="685">
+    <Grid Height="234" VerticalAlignment="Top" Margin="0,0,5,-1">
+        <Label x:Name="lblAppName" Foreground="DeepPink" FontWeight="Bold" Content="Decrypt Service Processing" HorizontalAlignment="Left" Height="32" Margin="222,24,0,0" VerticalAlignment="Top" FontStyle="Normal" Width="212" FontFamily="Palatino Linotype" FontSize="16"/>
+        <RadioButton Name="rb_DecryptCardSwipe" Margin="149,103,0,0" Validation.ErrorTemplate="{x:Null}" GroupName="Decrypt" Background="Yellow" Foreground="Black"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="21" FontFamily="Palatino Linotype" FontSize="14" >DecryptCardSwipe</RadioButton>
+        <RadioButton Name="rb_DecryptData" Margin="302,105,0,0" Validation.ErrorTemplate="{x:Null}" GroupName="Decrypt" Background="Yellow" Foreground="Black"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="25" FontFamily="Palatino Linotype" FontSize="14" >DecryptData</RadioButton>
+        <RadioButton Margin="421,106,0,0"  Validation.ErrorTemplate="{x:Null}" GroupName="Decrypt" Background="Yellow" Foreground="Black"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="23" FontFamily="Palatino Linotype" Name="rb_GenerateMac" FontSize="14" >GenerateMac</RadioButton>
+        <Button x:Name="btn_Open" Content="Open" HorizontalAlignment="Left" Margin="283,170,0,37" Width="62" RenderTransformOrigin="0.5,0" Click="btn_Open_Click"/>
+        <Button x:Name="btn_Close" Content="Close" HorizontalAlignment="Left" Margin="351,170,0,37" Width="63" RenderTransformOrigin="0.5,0" Click="btn_Close_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <ProjectReference Include="..\DecryptV3.Dtos\DecryptV3.Dtos.csproj" />
+    <ProjectReference Include="..\DecryptV3.ServiceFactory\DecryptV3.ServiceFactory.csproj" />
+    <!--<Content Include="MagensaQA_Pilot_Jan2025.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>  --> 
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+</Project>
